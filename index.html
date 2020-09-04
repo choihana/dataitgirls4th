@@ -4,45 +4,23 @@
     <Title>하나블로그</Title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
 </Head>
 
 <body>
-    <style>
-        h1{
-            border-bottom: pink 3px solid;
-            padding: 10px;
-        }
-        button {
-            background-color:blueviolet;
-            color: yellow;
-            padding: 10px 50px;
-            font-size: 150%;
-            margin: 5px;
-            border: yellow 2px solid;
-        }
-        a:link{
-            color: green;
-            text-decoration: none;
-        }
-        a:visited {
-            background-color:pink;
-            text-decoration: none;
-        }
-        a:hover {
-            background-color:yellow;
-        }
-        a:active{
-            color:red;
-        }
-    </style>
+   
     <h1>Hana's Portpolio ♥️</h1>
     <h5>오늘 무ㅓ먹지 ? </h5>
-    <ol>
-         <li><a href="hamburg.html">햄버거</a></li>
-         <li><a href="pizza.html">피자</a></li>
-         <li><a href="coffee.html">커피</a></li>
-    </ol>
-
+    
+      <ol>
+          <div id="container">
+          <li><a href="hamburg.html" target="_blank">햄버거</a></li>
+          <li><a href="pizza.html" target="_blank">피자</a></li>
+          <li><a href="coffee.html" target="_blank"> 커피</a></li>
+          </div>
+        </ol>
+  
     <div><button onClick="window.location.reload()">다른거 먹을래요 😤</button></div> <br/>
     <img src="https://source.unsplash.com/featured/?{food}" width="500"/>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/JZbi_BPYSlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

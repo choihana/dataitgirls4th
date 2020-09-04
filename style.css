@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+body{
+    background-image: url('https://i.pinimg.com/originals/80/40/b5/8040b5ff91ce8c3f153beebab39d584f.gif');
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    border-bottom: pink 3px solid;
+    padding: 10px;
+}
+button {
+    background-color:blueviolet;
+    color: yellow;
+    padding: 10px 50px;
+    font-size: 150%;
+    margin: 5px;
+    border: yellow 2px solid;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited {
+    background-color:pink;
+    text-decoration: none;
+}
+a:hover {
+    background-color:yellow;
+}
+a:active{
+    color:red;
+}
+
+#container {
+display: grid;
+grid-template-columns: 10fr 10fr 10fr;
+}
